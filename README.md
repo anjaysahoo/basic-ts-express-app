@@ -184,16 +184,16 @@ node app.js
 
 ### 3. Visit http://localhost:3000 on Postman
 #### i. GET
-![img.png](readme-imgaes/img.png)
+![img.png](readme-images/img.png)
 
 #### ii. POST
-![img_1.png](readme-imgaes/img_1.png)
+![img_1.png](readme-images/img_1.png)
 
 #### iii. PUT
-![img_2.png](readme-imgaes/img_2.png)
+![img_2.png](readme-images/img_2.png)
 
 #### iv. DELETE
-![img_3.png](readme-imgaes/img_3.png)
+![img_3.png](readme-images/img_3.png)
 
 </details>
 
