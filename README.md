@@ -257,3 +257,16 @@ Now on running `tsc` command, all compiled js file will be in `dist` folder
 ```
 </details>
 
+<details >
+ <summary style="font-size: x-large; font-weight: bold">Start Server</summary>
+
+### 1. Run below command to first compile code
+```bash
+tsc
+```
+
+### 2. Run below command to start the server
+```bash
+npm run start
+```
+</details>
