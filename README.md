@@ -269,4 +269,47 @@ tsc
 ```bash
 npm run start
 ```
+or just run
+```bash
+npm start
+```
+</details>
+
+<details >
+ <summary style="font-size: x-large; font-weight: bold">Add Nodemon for Auto-Start</summary>
+
+Using `nodemon` we can start the server automatically, 
+when there is any change in js file
+
+### 1. Update `package.json` file
+```json
+{
+  "scripts": {
+    "build": "tsc -p . -w",
+    "start": "nodemon dist/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+```
+
+### 2. Run below command to update `node_modules`
+```bash
+npm i
+```
+
+### 3. Run below command for compilation
+This will compile the code in js whenever there 
+is any change in ts file.
+```bash
+npm run build
+```
+
+### 4. Run below command to start the server
+Changes in js file after auto compilation will trigger
+nodemon to restart the server
+```bash
+npm start
+```
 </details>
