@@ -12,7 +12,7 @@ npm init
 ### 2. Create tsconfig.json file
 Below cmd will create tsconfig.json file
 ```
-tsc init
+tsc --init
 ```
 
 ### 3. Install `express` and `body-parser`
